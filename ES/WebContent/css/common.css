@@ -1,0 +1,36 @@
+body{
+    padding-top: 53.75px;
+    background-color: aliceblue;
+}
+
+.navbar{
+    border-radius: 0;
+}
+
+#wb a{
+   color: #EA4F38;
+}
+
+#wb a img{
+    margin-right: 10px;
+}
+
+.glyphicon-link{
+    color: lawngreen;
+}
+
+.container{
+    margin-top: 2%;
+}
+footer{
+	height: 30px;
+	line-height: 30px;
+    background-color: #333333;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}
+
+footer span{
+    color: yellowgreen;
+}

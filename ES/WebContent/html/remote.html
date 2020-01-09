@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>注册成功</title>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/common.css">
+<script src="../js/jquery-2.2.3.min.js" charset="utf-8"></script>
+<script src="../js/bootstrap.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+	$('#myModal').on('hidden.bs.modal', function(e) {
+		// do something...
+	})
+</script>
+</head>
+<body>
+	<!--导航条-->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<a class="navbar-brand glyphicon glyphicon-folder-open">&nbsp;题库管理系统>注册成功</a>
+	</nav>
+	<!--导航条结束-->
+	<!-- 内容实体开始 -->
+	<div class="container">
+	<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  修改密码 
+</button>
+		<!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+			aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">
+							<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+						</button>
+						<h4 class="modal-title" id="myModalLabel">修改密码 </h4>
+					</div>
+					<div class="modal-body">
+						<form action="">
+							<input name="password">
+							<input type="submit">
+						</form>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">取消 </button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<ul class="list-group" style="margin-top: 20%">
+			<li
+				class="list-group-item list-group-item-success glyphicon glyphicon-floppy-saved text-center">&nbsp;注册成功！</li>
+			<li
+				class="list-group-item list-group-item-info glyphicon glyphicon-user">&nbsp;您注册的用户名为：</li>
+			<li
+				class="list-group-item list-group-item-info glyphicon glyphicon-lock">&nbsp;注册的用户密码为：</li>
+			<li class="list-group-item list-group-item-warning text-center">感谢使用！</li>
+		</ul>
+		<a href="../html/login.jsp"
+			class="btn btn-primary center-block" role="button">返回登录界面</a>
+	</div>
+	<!-- 内容实体结束 -->
+	<!--脚注-->
+	<footer class="center-block text-center">
+		<span class="glyphicon glyphicon-folder-open" aria-hidden="true">&nbsp;&nbsp;题库管理系统</span>
+	</footer>
+</body>
+</html>
